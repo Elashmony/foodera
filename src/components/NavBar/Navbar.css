@@ -5,6 +5,9 @@
 .navbar-toggler{
     border: none;
 }
+button:focus{
+    box-shadow: none !important;
+}
 .navbar-toggler span{
     width: 40px;
     height: 40px;
@@ -17,9 +20,5 @@
 @media (max-width:414px){
     .navsec img{
         width:150px;
-    }
-    .navbar-toggler span {
-        width: 25px;
-        height: 25px;
     }
 }
