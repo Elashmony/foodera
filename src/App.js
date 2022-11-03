@@ -22,7 +22,7 @@ function App() {
   const [question, setQuestion] = useState([]);
   useEffect(() =>
   {
-    fetch('/js/data.json').then(data => data.json()).then(data =>
+    fetch('data.json').then(data => data.json()).then(data =>
     {
       setInfo(data.info);
       setFood(data.foods);
