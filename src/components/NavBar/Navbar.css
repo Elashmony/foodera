@@ -18,4 +18,8 @@
     .navsec img{
         width:150px;
     }
+    .navbar-toggler span {
+        width: 25px;
+        height: 25px;
+    }
 }
